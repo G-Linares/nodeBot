@@ -1,0 +1,24 @@
+{
+  "name": "nodebot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/G-Linares/nodeBot.git"
+  },
+  "keywords": [],
+  "author": "G-Linares",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/G-Linares/nodeBot/issues"
+  },
+  "homepage": "https://github.com/G-Linares/nodeBot#readme",
+  "dependencies": {
+    "discord.js": "^14.1.2",
+    "dotenv": "^16.0.1"
+  }
+}
