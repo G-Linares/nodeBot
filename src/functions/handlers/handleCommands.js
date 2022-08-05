@@ -9,6 +9,7 @@ module.exports = (client) => {
         .filter((file) => file.endsWith(".js"));
 
       const { commands, commandArray } = client;
+      console.log(commands)
       for (const file of commandFiles) {
         const command = require(`../../commands/${folder}/${file}`);
         commands.set(command.data.name, command);
